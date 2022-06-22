@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The example of the FlexBox impelementation</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<style>
+		@media(min-width: 768px)
+		{
+			.contain1 div
+			{
+				border: 3px solid green;
+				padding: 10px;
+				align-items: center;
+			}
+
+			.contain1
+			{
+				display: flex;/*
+				justify-content: space-between;*/
+			}
+
+			.text1
+			{
+				flex: 3;
+				order: 1;
+			}
+
+			.text2
+			{
+				color: violet;
+				flex: 2;
+				order: 2;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="contain1">
+		<div class="text1">
+			<h1>The list of the countries related to the Korean War</h1>
+			<ul>
+				<li>North Korea</li>
+				<li>Chinese People Republic</li>
+				<li>South Korea</li>
+				<li>United States of America</li>
+			</ul>
+		</div>
+		<div class="text2">
+			<h1>The list of the countries related to the Korean War</h1>
+			<ul>
+				<li>North Korea</li>
+				<li>Chinese People Republic</li>
+				<li>South Korea</li>
+				<li>United States of America</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
